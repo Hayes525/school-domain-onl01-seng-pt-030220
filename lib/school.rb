@@ -117,25 +117,25 @@ end
 # cash_register.total
 
 
-class Song
+#class Song
 
-  @@all = []
+  #@@all = []
 
-  attr_accessor :name
+  #attr_accessor :name
 
-  def initialize(name)
-    @name = name
-    @@all << self
-  end
+  #def initialize(name)
+    #@name = name
+    #@@all << self
+  #end
 
-  def self.all
-    @@all.each do |song|
-      puts song.name
-    end
-  end
-end
+  #def self.all
+    #@@all.each do |song|
+      #puts song.name
+    #end
+  #end
+#end
 
-sik_k = Song.new("rendevouz")
-uh = Song.new("huh")
+#sik_k = Song.new("rendevouz")
+#uh = Song.new("huh")
 # sik_k.name
-Song.all
+#Song.all
