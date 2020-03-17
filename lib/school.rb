@@ -18,7 +18,7 @@ class School
         return y
       end
     end
-end 
+end
 
 # # This works, but it isn't passing learn.co's tests cause of
 # # how it displays syntactically...but the same information is there
